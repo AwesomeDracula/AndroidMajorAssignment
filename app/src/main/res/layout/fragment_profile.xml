@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingHorizontal="20dp"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="100dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Hi admin"
+        android:textColor="@color/foreground"
+        android:gravity="center_horizontal"
+        android:id="@+id/txtProfile"
+        android:textSize="20dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtFullName"
+        android:textColor="@color/black"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="10dp"
+        android:text="FullName: Vu Viet Trung"
+        android:textSize="16dp"
+        android:textAlignment="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/black"
+        android:id="@+id/txtPhoneNum"
+        android:text="Phone number: 0977942025"
+        android:textSize="16dp"
+        android:textAlignment="center"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update profile"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/black"
+        android:id="@+id/btnUpdateProfile"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="50dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Music is the language of the spirit. It opens the secret of life bringing peace, abolishing strife"
+        android:textColor="@color/foreground"
+        android:gravity="center_horizontal"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Log out"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/black"
+        android:id="@+id/btnLogout"/>
+
+</LinearLayout>
